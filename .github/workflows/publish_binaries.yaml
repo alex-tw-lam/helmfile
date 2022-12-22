@@ -1,11 +1,11 @@
-name: Publish Binaries
+name: Publish v0.x Binaries
 
 on:
   push:
     branches:
       - "!*"
     tags:
-      - "v*"
+      - "v0*"
 
 jobs:
   goreleaser:
